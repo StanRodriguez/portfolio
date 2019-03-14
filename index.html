@@ -29,34 +29,40 @@
   </head>
   <body>
     <nav>
-      <a href="#about">
-        About me
+      <a href="#home">
+        Home
       </a>
 
-      <!-- <a href="#">
-        Technical Box
-      </a> -->
-
-      <a href="./pages/projects.html">
+      <a href="#projects">
         Projects
       </a>
-
+      <a href="#about">
+        About
+      </a>
       <a href="#contact">
         Contact
       </a>
     </nav>
-    <div class="container" id="about">
-      <header>
-        <h1>Hi, my name is Stanly and I am software engineer</h1>
+    <div class="container" id="home">
+      <header class="header">
+        <h1 class="header-title">
+          Hi, my name is Stanly and I am software engineer
+        </h1>
       </header>
-
-      <section class="about-me-section">
+      <section class="resume-section">
+        <h1>Resume</h1>
+        <a
+          href="https://drive.google.com/file/d/10h--oHzFXtRLyE7OZ6eEW93Vuh8iCVoF/view?usp=sharing"
+          target="_blank"
+          >Download</a
+        >
+      </section>
+      <section class="about-me-section my-pic-section">
         <div class="img-q-wrapper">
           <img
             class="about-me-my-img"
             src="./assets/myPic2.jpg"
-            alt="my
-        picture"
+            alt="my picture"
           />
           <p class="quote">
             "As a video gamer, basketball fan, and codeaholic since high school,
@@ -64,106 +70,268 @@
             to create something unique or help others."
           </p>
         </div>
-        <section class="resume">
-          <h1>Resume</h1>
-          <a
-            href="https://drive.google.com/file/d/10h--oHzFXtRLyE7OZ6eEW93Vuh8iCVoF/view?usp=sharing"
-            target="_blank"
-            >Download</a
-          >
-        </section>
-        <div class="about-me-description">
-          <p>
-            After finishing high-school, I did one year IT training where I was
-            introduced to web development (HTML, CSS and JS) and backend coding
-            (PHP and MySQL).
-          </p>
-          <p>
-            While working in IT support and customer service I frequently had to
-            debug PL/pgSQL code for the postgreSQL databases that I
-            administrated. As a result I grew a passion for programming and
-            decided to pursue a degree in computer science.
-          </p>
-          <p>
-            In 2018 I came to the United States, I wanted to be up-to-date in
-            the development field and took the codebridge program from Per
-            Scholas where I able to learn immerse myself in HTML, CSS, and
-            Javascript. Once completing the program, I was given the opportunity
-            to advance my knowledge of the web development space attending
-            General Assembly, where I taught a full stack curriculum and work in
-            collaboration with career changers that not only helped grow as
-            developer, but also as a person.
-          </p>
-          <p>
-            Since I was a teenager I have had a passion for Computer Science and
-            I am excited to continue to develop my programming knowledge.
-          </p>
-        </div>
       </section>
-      <section>
+
+      <section class="projects-section" id="projects">
         <h2>
-          Technical Box
+          Projects
         </h2>
-        <div class="skills">
-          <a href="https://www.w3.org/html/" target="_blank"
-            ><img src="./assets/html5.png" alt="HTML5"
-          /></a>
-          <a
-            href="https://www.w3.org/Style/CSS/Overview.en.html"
-            target="_blank"
-          >
-            <img src="./assets/css3.png"
-          /></a>
-          <a href="https://getbootstrap.com/" target="_blank"
-            ><img src="./assets/bootstrap.png"
-          /></a>
-          <a href="https://semantic-ui.com/" target="_blank"
-            ><img src="./assets/semantic-ui.png"
-          /></a>
-          <a
-            href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-            target="_blank"
-            ><img src="./assets/javascript.svg" />
-          </a>
-          <a href="https://jquery.com/" target="_blank"
-            ><img src="./assets/jquery.png" />
-          </a>
-          <a href="https://docs.mapbox.com/api/" target="_blank"
-            ><img src="./assets/mapbox.png" />
-          </a>
-          <a href="https://reactjs.org/" target="_blank"
-            ><img src="./assets/reactjs.png"
-          /></a>
-          <a href="https://nodejs.org/en/" target="_blank"
-            ><img src="./assets/node-js.png"
-          /></a>
-          <a href="https://expressjs.com/" target="_blank"
-            ><img src="./assets/expressjs.png"
-          /></a>
-          <a href="http://docs.sequelizejs.com/" target="_blank"
-            ><img src="./assets/sequelize.png"
-          /></a>
-          <a href="http://www.php.net/" target="_blank"
-            ><img src="./assets/php.png"/></a
-          ><a href="https://rubyonrails.org/" target="_blank"
-            ><img src="./assets/rubyonrails.png"
-          /></a>
-          <a href="https://www.python.org/" target="_blank"
-            ><img src="./assets/python.ico"/></a
-          ><a href="https://www.djangoproject.com/" target="_blank"
-            ><img src="./assets/django.png"
-          /></a>
-          <a href="https://www.postgresql.org/" target="_blank"
-            ><img src="./assets/postgresql.png"
-          /></a>
-          <a href="https://www.mysql.com/" target="_blank"
-            ><img src="./assets/mysql.png"
-          /></a>
-          <a
-            href="https://www.gnu.org/gnu/linux-and-gnu.en.html"
-            target="_blank"
-            ><img src="./assets/gnu-linux.png"
-          /></a>
+        <div class="projects">
+          <article class="project-article">
+            <h3>
+              Transaction Tracker
+            </h3>
+            <div class="project">
+              <a
+                href="https://transac-tracker.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="../assets/transaction-tracker.gif"
+                  alt="transaction-tracker demo"
+              /></a>
+              <p class="project-description">
+                Create transactions and keep track of your balance. You can also
+                delete and update them and there are options for filtering. All
+                is done instantantly so reloading is not necessary.
+              </p>
+              <p>
+                <strong>Tech: </strong> <em>Front end: </em> ReactJS, Semantic
+                UI, react-cookies. <em>Back end: </em> Django, PostgreSQL,
+                PL/pgSQL, django-cors-headers
+              </p>
+              <a
+                href="https://github.com/bestanly/Transaction-Tracker"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Github:<i class="fab fa-github"></i
+              ></a>
+            </div>
+          </article>
+          <article class="project-article">
+            <h3>
+              All Country Info
+              <!--  -->
+            </h3>
+            <div class="project">
+              <a
+                href="http://all-country-info.surge.sh/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="../assets/all-country-info.gif"
+                  alt="all-country-info demo"
+                  name="all-country-info"
+              /></a>
+              <div class="project-description">
+                <p>
+                  This app allows you to look for any country around the world,
+                  see the location in the map and quick information about it.
+                </p>
+
+                <p>
+                  <strong>Tech: </strong>ReactJS,
+                  <a href="https://jedwatson.github.io/react-select/"
+                    >react-select</a
+                  >, bootstrap, MapBox and
+                  <a href="https://restcountries.eu/">REST Countries</a> api
+                </p>
+                <a
+                  href="https://github.com/bestanly/all-about-countries/tree/master/p2/all-about-countries"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Github:<i class="fab fa-github"></i
+                ></a>
+              </div>
+            </div>
+          </article>
+          <article class="project-article">
+            <h3>
+              Click-n-shoot
+            </h3>
+            <div class="project">
+              <a
+                href="https://bestanly-click-n-shoot.netlify.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="../assets/click-n-shoot.gif" alt="click-n-shoot demo"
+              /></a>
+              <p class="project-description">
+                The goal is to survive as much as you can killing enemies before
+                your life reaches 0. Be careful! Your weapon can hold only 5
+                bullets. Do not forget to reload with
+                <strong>R</strong> key.
+              </p>
+              <p>
+                <strong>Tech: </strong>HTML5, CSS3, bootstrap and vanilla
+                javascript
+              </p>
+              <a
+                href="https://github.com/bestanly/click-n-shoot/tree/master/click-n-shoot"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Github:<i class="fab fa-github"></i
+              ></a>
+            </div>
+          </article>
+          <article class="project-article">
+            <h3>
+              Pepe Rosso Social
+            </h3>
+            <div class="project">
+              <a
+                href="https://peperossosocial.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="../assets/peperossosocial.gif"
+                  alt="peperossosocial demo"
+              /></a>
+              <p class="project-description">
+                Project built with the UX designers collaboration using the
+                Agile software development approach where we took a commercial
+                website and rebuilt it.
+              </p>
+              <p>
+                <strong>Tech: </strong> ReactJS, React-router, JavaScript,
+                Zepplin, CSS3
+              </p>
+              <a
+                href="https://github.com/bestanly/No-Diet-Coke"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Github:<i class="fab fa-github"></i
+              ></a>
+            </div>
+          </article>
+          <article class="project-article">
+            <h3>
+              AA Music Player
+            </h3>
+            <div class="project">
+              <a
+                href="https://bestanly.github.io/musicplayer/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="../assets/musicplayer.gif" alt="Music Player demo"
+              /></a>
+              <p class="project-description">
+                Fully functional music player created with AWS Cloud9. Includes
+                <strong>repeat</strong> and <strong>shuffle</strong> buttons.
+              </p>
+              <p><strong>Tech: </strong> Vanilla JavaScript, CSS</p>
+              <a
+                href="https://github.com/bestanly/musicplayer"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Github:<i class="fab fa-github"></i
+              ></a>
+            </div>
+          </article>
+          <section class="about-me-section">
+            <div class="about-me-description" id="about">
+              <h2>
+                About me
+              </h2>
+              <p>
+                After finishing high-school, I did one year IT training where I
+                was introduced to web development (HTML, CSS and JS) and backend
+                coding (PHP and MySQL).
+              </p>
+              <p>
+                While working in IT support and customer service I frequently
+                had to debug PL/pgSQL code for the postgreSQL databases that I
+                administrated. As a result I grew a passion for programming and
+                decided to pursue a degree in computer science.
+              </p>
+              <p>
+                In 2018 I came to the United States, I wanted to be up-to-date
+                in the development field and took the codebridge program from
+                Per Scholas where I able to learn immerse myself in HTML, CSS,
+                and Javascript. Once completing the program, I was given the
+                opportunity to advance my knowledge of the web development space
+                attending General Assembly, where I taught a full stack
+                curriculum and work in collaboration with career changers that
+                not only helped grow as developer, but also as a person.
+              </p>
+              <p>
+                Since I was a teenager I have had a passion for Computer Science
+                and I am excited to continue to develop my programming
+                knowledge.
+              </p>
+            </div>
+          </section>
+          <section class="technical-box-section">
+            <h2 class="technical-box-title">
+              Technical Box
+            </h2>
+            <div class="skills">
+              <a href="https://www.w3.org/html/" target="_blank"
+                ><img src="./assets/html5.png" alt="HTML5"
+              /></a>
+              <a
+                href="https://www.w3.org/Style/CSS/Overview.en.html"
+                target="_blank"
+              >
+                <img src="./assets/css3.png"
+              /></a>
+              <a href="https://getbootstrap.com/" target="_blank"
+                ><img src="./assets/bootstrap.png"
+              /></a>
+              <a href="https://semantic-ui.com/" target="_blank"
+                ><img src="./assets/semantic-ui.png"
+              /></a>
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                target="_blank"
+                ><img src="./assets/javascript.svg" />
+              </a>
+              <a href="https://jquery.com/" target="_blank"
+                ><img src="./assets/jquery.png" />
+              </a>
+              <a href="https://docs.mapbox.com/api/" target="_blank"
+                ><img src="./assets/mapbox.png" />
+              </a>
+              <a href="https://reactjs.org/" target="_blank"
+                ><img src="./assets/reactjs.png"
+              /></a>
+              <a href="https://nodejs.org/en/" target="_blank"
+                ><img src="./assets/node-js.png"
+              /></a>
+              <a href="https://expressjs.com/" target="_blank"
+                ><img src="./assets/expressjs.png"
+              /></a>
+              <a href="http://docs.sequelizejs.com/" target="_blank"
+                ><img src="./assets/sequelize.png"
+              /></a>
+              <a href="http://www.php.net/" target="_blank"
+                ><img src="./assets/php.png"/></a
+              ><a href="https://rubyonrails.org/" target="_blank"
+                ><img src="./assets/rubyonrails.png"
+              /></a>
+              <a href="https://www.python.org/" target="_blank"
+                ><img src="./assets/python.ico"/></a
+              ><a href="https://www.djangoproject.com/" target="_blank"
+                ><img src="./assets/django.png"
+              /></a>
+              <a href="https://www.postgresql.org/" target="_blank"
+                ><img src="./assets/postgresql.png"
+              /></a>
+              <a href="https://www.mysql.com/" target="_blank"
+                ><img src="./assets/mysql.png"
+              /></a>
+              <a
+                href="https://www.gnu.org/gnu/linux-and-gnu.en.html"
+                target="_blank"
+                ><img src="./assets/gnu-linux.png"
+              /></a>
+            </div>
+          </section>
         </div>
       </section>
     </div>
