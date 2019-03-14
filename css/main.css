@@ -197,9 +197,9 @@ article a {
 .projects-section {
   margin-top: 100px;
 }
-.project-article {
+/* .project-article {
   border: 1px solid black;
-}
+} */
 @media (max-device-width: 768px) {
   .projects article {
     width: 100%;
