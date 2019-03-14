@@ -191,11 +191,14 @@ article a {
   margin: 20px;
   flex: 1;
 }
-.my-pic-section {
+/* .my-pic-section {
   margin-top: 100px;
-}
+} */
 .projects-section {
   margin-top: 100px;
+}
+.project-article {
+  border: 1px solid black;
 }
 @media (max-device-width: 768px) {
   .projects article {
