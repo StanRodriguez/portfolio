@@ -41,9 +41,9 @@ section {
   text-decoration: none;
   color: #c0e0de;
   display: inline-block;
-  font-size: 15px;
+  font-size: 17px;
   padding: 5px 5px;
-  border: 1px solid #c0e0de;
+  /* border: 1px solid #c0e0de; */
   border-radius: 5px;
   transition-duration: 0.5s;
 }
