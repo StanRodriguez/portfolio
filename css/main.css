@@ -145,10 +145,9 @@ header {
   left: 0px;
   margin-bottom: 0px;
   padding-right: 0px;
-
   opacity: 0;
-  width: 90%;
-  height: 50%;
+  width: 270px;
+  height: 200px;
   position: absolute;
   background-color: black;
   color: white;
