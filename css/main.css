@@ -135,7 +135,7 @@ header {
 
 .about-me-description {
   flex: 1;
-  padding: 15px;
+  padding: 25px;
 }
 
 .quote {
@@ -196,9 +196,11 @@ article a {
 .projects-section {
   margin-top: 100px;
 }
-/* .project-article {
-  border: 1px solid black;
-} */
+.project {
+  background-color: #f8f5f5ea;
+  padding: 10px;
+  border-radius: 5px;
+}
 @media (max-device-width: 768px) {
   .projects article {
     width: 100%;
