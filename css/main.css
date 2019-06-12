@@ -83,6 +83,15 @@ nav a:hover {
   border: 1px solid #c0e0de;
   transition-duration: 0.5s;
 }
+.project {
+  display: flex;
+}
+.whole-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15px;
+}
 /* .project {
   position: relative;
 } */
@@ -202,6 +211,9 @@ article a {
   border-radius: 5px;
 }
 @media (max-device-width: 768px) {
+  .project {
+    display: block;
+  }
   .projects article {
     width: 100%;
   }
