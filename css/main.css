@@ -196,6 +196,8 @@ article a {
 .projects article {
   margin: 20px;
   flex: 1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
 }
 /* .my-pic-section {
   margin-top: 100px;
@@ -205,9 +207,7 @@ article a {
 }
 .project {
   display: flex;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 10px;
-  border-radius: 5px;
 }
 @media (max-device-width: 768px) {
   .project {
