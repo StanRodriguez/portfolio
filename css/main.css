@@ -168,6 +168,7 @@ header {
   background-color: #032b43;
   color: #c0e0de;
   font-size: 15px;
+  padding: 10px;
 }
 
 .contact a {
@@ -177,9 +178,7 @@ header {
   color: #c0e0de;
   font-size: 15px;
 }
-.contact {
-  padding: 10px;
-}
+
 .contact p {
   margin: 5px;
   font-size: 22px;
