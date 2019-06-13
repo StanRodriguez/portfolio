@@ -1,7 +1,6 @@
 body,
 html {
   text-align: center;
-  width: 100vw;
   height: 100vh;
   margin: 0;
   padding: 0;
@@ -63,7 +62,7 @@ nav {
   display: flex;
   justify-content: center;
   position: fixed;
-  width: 100vw;
+  width: 100%;
   height: 45px;
   top: 0;
   background-color: #032b43;
@@ -167,7 +166,6 @@ header {
 }
 .contact {
   background-color: #032b43;
-  width: 100vw;
   color: #c0e0de;
   font-size: 15px;
 }
@@ -209,6 +207,7 @@ article a {
   display: flex;
   padding: 10px;
 }
+/* mobile */
 @media (max-device-width: 768px) {
   .project {
     display: block;
@@ -219,7 +218,11 @@ article a {
   .projects article img {
     width: 80vw;
   }
+  .about-me-description {
+    padding: 25px 0;
+  }
 }
+/* desktop */
 @media (min-device-width: 769px) {
   .projects article {
     width: 50%;
